@@ -1,4 +1,4 @@
-# php-playground 🚀
+# PHP Playground 🚀
 
 Welcome to the "php-playground" – Your Interactive PHP Coding Space!
 
