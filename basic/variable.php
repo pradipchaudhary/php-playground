@@ -14,11 +14,13 @@
 
 
 
-$name = "Pradip";
-$NAME = "Younz";
 
 
-$_sayHello = "Say Hello";
+
+$name = "John";
+$NAME = "Pradip";
+$age = 25;
+$_status = "Active";
 
 
 
@@ -26,7 +28,7 @@ $_sayHello = "Say Hello";
 echo "$name";
 echo "$NAME";
 
-echo "$_sayHello <br />";
+echo "$_status";
 
 
 
