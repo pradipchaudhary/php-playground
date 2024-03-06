@@ -20,7 +20,12 @@ Website: http://www.yourwebsite.com
 */
 ?>
 
-
+<!-- Footer Section -->
+<footer>
+    <div class="container text-center">
+        <p>&copy; 2024 PHP Playground. All Rights Reserved.</p>
+    </div>
+</footer>
 </body>
 
 </html>
