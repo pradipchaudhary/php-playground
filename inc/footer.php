@@ -21,7 +21,7 @@ Website: http://www.yourwebsite.com
 ?>
 
 <!-- Footer Section -->
-<footer>
+<footer class="bg-dark text-white">
     <div class="container text-center">
         <p>&copy; 2024 PHP Playground. All Rights Reserved.</p>
     </div>
