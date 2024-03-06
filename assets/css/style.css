@@ -10,3 +10,10 @@
 body {
    background: #efefef;
 }
+/* Footer Styles */
+footer {
+   background-color: #000;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+}
