@@ -13,33 +13,37 @@ Website: http://www.yourwebsite.com
 /*
 - This script is part of the PHP Playground section.
 */
-$title = "Playground";
+$title = "PHP Forms";
 // Header includes templates
 include_once("./inc/header.php");
 
 $title = "php-playground";
 $startDate = 2024;
 
-// Database connection
-// $conn = new mysqli("localhost", "username", "password", "database");
-$conn = new mysqli("localhost", "root", "", "php-playground_db");
 
-if (!$conn) {
-    echo "No connection";
+// Create connection
+// $connect = mysqli_connect("localhost", "root", "");
 
-}
-?>
+// $newdbname = "php-playground";
+
+// Database creating query
+// $query = "CREATE DATABASE $newdbname";
 
 
-<?php
+// Create database 
+// $con = mysqli_query($connect, $query);
+
+// var_dump($con);
+
+
+
 // Output container
 ?>
 <main class="main" id="main">
     <div class="container">
         <?php
-
-        echo "<h1>  PHP Playground </h1>";
-
+        // form includes
+            include './form/form.php';
         ?>
     </div>
 </main>
