@@ -14,64 +14,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// SQL query to create a table
-// $sql = "CREATE TABLE students (
-//     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-//     first_name VARCHAR(30) NOT NULL,
-//     last_name VARCHAR(30) NOT NULL,
-//     date_of_birth DATE NOT NULL,
-//     gender VARCHAR(10) NOT NULL,
-//     email VARCHAR(50) NOT NULL,
-//     phone VARCHAR(15) NOT NULL,
-//     address TEXT NOT NULL,
-//     major VARCHAR(50) NOT NULL,
-//     gpa DECIMAL(3,2) NOT NULL
-// )";
-
-// Execute the query
-// if ($conn->query($sql) === TRUE) {
-//     echo "Table 'students' created successfully";
-// } else {
-//     echo "Error creating table: " . $conn->error;
-// }
-
-// Sample data to be inserted
-// $first_name = "John";
-// $last_name = "Doe";
-// $date_of_birth = "1990-05-15";
-// $gender = "Male";
-// $email = "john.doe@example.com";
-// $phone = "123-456-7890";
-// $address = "123 Main St, Cityville";
-// $major = "Computer Science";
-// $gpa = 3.75;
-
-// Check if the form is submitted using the POST method
-// if ($_SERVER["REQUEST_METHOD"] === "POST") {
-//     // Sanitize and validate data (replace this with proper validation)
-//     $first_name = $conn->real_escape_string($_POST['first_name']);
-//     $last_name = $conn->real_escape_string($_POST['last_name']);
-//     $date_of_birth = $conn->real_escape_string($_POST['date_of_birth']);
-//     $gender = $conn->real_escape_string($_POST['gender']);
-//     $email = $conn->real_escape_string($_POST['email']);
-//     $phone = $conn->real_escape_string($_POST['phone']);
-//     $address = $conn->real_escape_string($_POST['address']);
-//     $major = $conn->real_escape_string($_POST['major']);
-//     $gpa = $conn->real_escape_string($_POST['gpa']);
-
-// }
 
 
-
-
-// SQL query to insert data into the 'students' table
-// $sql = "INSERT INTO students (first_name, last_name, date_of_birth, gender, email, phone, address, major, gpa)
-//         VALUES ('$first_name', '$last_name', '$date_of_birth', '$gender', '$email', '$phone', '$address', '$major', $gpa)";
-
-
-// SQL query to insert data into the 'students' table
-// $sql = "INSERT INTO students (first_name, last_name, date_of_birth, gender, email, phone, address, major, gpa);
-// VALUES ('$first_name', '$last_name', '$date_of_birth', '$gender', '$email', '$phone', '$address', '$major', $gpa)";
 
 
 // Check if the form is submitted using the POST method
@@ -109,7 +53,7 @@ $conn->close();
 
 ?>
 <div class="container mt-5">
-    <form action="<?php echo "$_SERVER('PHP-SELF')"; ?>" method="post">
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <h2 class="mb-4">Student Information</h2>
 
         <!-- Personal Information -->
