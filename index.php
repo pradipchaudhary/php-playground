@@ -43,9 +43,8 @@ $startDate = 2024;
     <div class="container">
         <?php
         // form includes
-        // include './form/get.php';
-        include './form/post.php';
-        // include './form/advance-form.php';
+        // include './forms/get.php';
+        include './forms/post.php';
         ?>
     </div>
 </main>
