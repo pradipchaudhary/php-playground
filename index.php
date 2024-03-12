@@ -42,10 +42,11 @@ $startDate = 2024;
 <main class="main" id="main">
     <div class="container">
         <?php
-                // form includes
-                // include './form/get.php';
-                // include './form/post.php';
-                //include './function/function.php';
-                ?>
+        // form includes
+        // include './form/get.php';
+        // include './form/post.php';
+        //include './function/function.php';
+        include_once './superglobal/superglobal.php';
+        ?>
     </div>
 </main>
