@@ -42,18 +42,10 @@ $startDate = 2024;
 <main class="main" id="main">
     <div class="container">
         <?php
-        // form includes
-        // include './forms/get.php';
-        include './forms/post.php';
-        // include './form/get.php';
-        // include './form/post.php';
-        //include './function/function.php';
-        ?>
+                // form includes
+                // include './form/get.php';
+                // include './form/post.php';
+                //include './function/function.php';
+                ?>
     </div>
 </main>
-
-
-<?php
-
-// Include Footer Section
-include_once("./inc/footer.php");
