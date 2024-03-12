@@ -44,7 +44,8 @@ $startDate = 2024;
         <?php
         // form includes
         // include './forms/get.php';
-        include './forms/post.php';
+        // include './forms/post.php';
+        include './function/function.php';
         ?>
     </div>
 </main>
