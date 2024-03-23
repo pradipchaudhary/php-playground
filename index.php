@@ -15,7 +15,7 @@ Website: http://www.yourwebsite.com
 */
 $title = "PHP Forms";
 // Header includes templates
-include_once("./inc/header.php");
+include_once ("./inc/header.php");
 
 $title = "php-playground";
 $startDate = 2024;
@@ -46,7 +46,8 @@ $startDate = 2024;
         // include './form/get.php';
         // include './form/post.php';
         //include './function/function.php';
-        include_once './superglobal/superglobal.php';
+        // include_once './superglobal/superglobal.php';
+        include './namespace/index.php';
         ?>
     </div>
 </main>
