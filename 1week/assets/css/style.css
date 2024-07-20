@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    padding: 16px 0;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 15px;
+}
+.main h4 {
+    margin: 10px 0;
+}
+.main .content {
+    margin-left: 20px;
+}
