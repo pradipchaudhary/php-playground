@@ -21,9 +21,10 @@
             <h4>2. Data types </h4>
             <div class="content">
                 <?php
-                include("./includes/datatypes.php");
+                // include("./includes/datatypes.php");
                 // includes object files 
                 // include_once('./includes/object.php');
+                include_once("./includes/switch.php");
                 ?>
             </div>
         </main>
